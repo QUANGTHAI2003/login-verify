@@ -56,9 +56,6 @@
             <!-- /form -->
             <div class="workinghny-form-grid">
                 <div class="main-mockup">
-                    <div class="alert-close">
-                        <span class="fa fa-close"></span>
-                    </div>
                     <div class="w3l_form align-self">
                         <div class="left_grid_info">
                             <img src="images/image.svg" alt="">
@@ -86,15 +83,6 @@
         </div>
     </section>
     <script src="js/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(c) {
-        $('.alert-close').on('click', function(c) {
-            $('.main-mockup').fadeOut('slow', function(c) {
-                $('.main-mockup').remove();
-            });
-        });
-    });
-    </script>
 </body>
 
 </html>
