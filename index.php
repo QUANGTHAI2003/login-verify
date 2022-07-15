@@ -68,6 +68,7 @@
                             <input type="email" class="email" name="email" placeholder="Enter Your Email" required>
                             <input type="password" class="password" name="password" placeholder="Enter Your Password"
                                 style="margin-bottom: 2px;" required>
+                            <input type="checkbox" name="" id="">
                             <p><a href="forgot-password.php"
                                     style="margin-bottom: 15px; display: block; text-align: right;">Forgot Password?</a>
                             </p>
